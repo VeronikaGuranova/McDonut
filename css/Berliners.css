@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+body{
+    font-family: 'Sedgwick Ave', cursive;
+    background-image: url(../img/background.jpg);
+    background-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    background-color: white;
+    width: 1800px;
+}
+.header{
+    background-image:url(../img/smudges.jpg);
+    background-repeat: repeat-x;
+}
+.div-logo{
+    max-width: 400px;
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-img{
+    max-width: 300px;
+}
+.logo-text{
+    margin-top: -45px;
+    border-bottom: dotted #F43BA0 5px;
+    margin-left: 20px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-logo:hover{
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+.logo-a{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+}
+.logo-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.nav img{
+    max-width: 1000px;
+}
+.nav-link{
+    text-decoration: none;
+    color: #000;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.nav-link:hover{
+    border-bottom: #F43BA0 dotted 5px;
+    font-size: 22px;
+    transform: scale(1.2);
+    transition-duration: 1.5s;
+}
+.hand{
+    width: 600px;
+    margin-top: -100px;
+    margin-right: -300px;
+}
+h1{
+    text-align: center;
+    background-color: white;
+}
+p{
+    text-indent: 11px;
+}
+.section-1{
+    padding: 5px;
+    margin-top: -230px;
+    background-image: url(../img//choco.png);
+    background-size: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section-1 h3:hover{
+    border-bottom: black solid 1px;
+}
+.section-1:hover{
+    border: #000000 1px solid;
+}
+.main-donuts{
+    display: flex;
+}
+.donuts{
+    border: black solid 3px;
+    margin: 50px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+.main-donuts img{
+    width: 250px;
+    height: 250px;
+    margin-top: -70px;
+    border-radius: 50%;
+    -webkit-transition:.8s ease-in-out;
+    transition:.8s ease-in-out;
+}
+.main-donuts img:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+.footer-img{
+    height: 150px;
+}
+.social-networks img{
+    width: 40px;
+    height: 40px;
+}
